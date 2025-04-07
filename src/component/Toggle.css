@@ -1,0 +1,34 @@
+.toggle-container {
+  margin: 2rem;
+  text-align: center;
+}
+
+.toggle-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 120px;
+}
+
+.toggle-btn.login {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.toggle-btn.logout {
+  background-color: #f44336;
+  color: white;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.toggle-btn:active {
+  transform: scale(0.98);
+}
